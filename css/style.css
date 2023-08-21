@@ -1,0 +1,247 @@
+@font-face {
+   font-family: 'Montserrat';
+   src: url('../fonts/Montserrat-Medium.woff2') format('woff2'),
+       url('../fonts/Montserrat-Medium.woff') format('woff');
+   font-weight: 500;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Montserrat';
+   src: url('../fonts/Montserrat-Bold.woff2') format('woff2'),
+       url('../fonts/Montserrat-Bold.woff') format('woff');
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+}
+
+* {
+   margin: 0;
+   box-sizing: border-box;
+}
+
+.body {
+   font-family: 'Montserrat', 'Arial', sans-serif;
+   font-style: normal;
+   font-weight: 700;
+}
+
+.container {
+   max-width: 1076px;
+   min-width: 345px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+
+.title {
+   color: #252B42;
+   font-size: 36px;
+   letter-spacing: 0.2px;
+   line-height: 57px;
+   text-align: center;
+}
+
+.subtitle {
+   color:  #252B42;
+   font-size: 16px;
+   line-height: 24px; 
+   letter-spacing: 0.1px;
+}
+
+a {
+   display: inline-block;
+}
+
+.text {
+   color:  #737373;
+   font-size: 14px;
+   font-weight: 500;
+   line-height: 20px;
+   letter-spacing: 0.2px;
+   text-align: center;
+   display: inline-block;
+}
+
+.upper {
+   text-transform: uppercase;
+}
+
+.choose {
+   background-color: #F3F3F3;
+   padding-top: 98px;
+   padding-bottom: 216px;
+}
+
+.choose__block {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-bottom: 75px;
+}
+
+.choose__title {
+   padding-bottom: 10px;
+   text-align: center;
+   max-width: 227px;
+}
+
+.choose__text {
+   max-width: 225px;
+}
+
+.choose__wrap {
+   display: flex;
+   margin: 0 -15px;
+   flex-wrap: wrap;
+}
+
+.choose__cards {
+   padding: 0 15px 30px;
+   width: 100%;
+}
+
+.choose__item {
+   padding: 40px 30px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 10px;
+   background-color: #fff;
+   height: 100%;
+}
+
+.choose__cards-pic {
+   margin-bottom: auto;
+   display: inline-block;
+}
+
+.choose__cards-title {
+   color: #252B42;
+   font-size: 40px;
+   line-height: 57px; 
+   letter-spacing: 0.2px;
+}
+
+.choose__cards-subtitle {
+   color: #737373;
+   text-align: center;
+   font-size: 16px;
+   line-height: 24px; 
+   letter-spacing: 0.1px;
+}
+
+@media (min-width:768px) {
+   .choose {
+      padding-top: 80px;
+      padding-bottom: 80px;
+   }
+   .choose__cards {
+      width: 50%;
+   }
+   .choose__title {
+      max-width: 369px;
+   }
+   .choose__text {
+      max-width: 515px;
+   }
+}
+
+@media (min-width: 992px) {
+   .choose__cards {
+      width: 25%;
+   }
+   .choose__block {
+      padding-bottom: 50px;
+   }
+ }
+
+ .practice {
+   background-color: #F3F3F3;
+   padding-bottom: 193px;
+ }
+
+.practice__block {
+   padding-bottom: 75px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.practice__block-title {
+   padding-bottom: 10px;
+   max-width: 168px;
+}
+
+.practice__block-text {
+   max-width: 225px;
+}
+
+.practice__wrap {
+   display: flex;
+   flex-wrap: wrap;
+   margin: 0 -15px;
+}
+
+.practice__cards {
+   padding: 0 15px 50px;
+   width: 100%;
+}
+
+.practice__item {
+   display: flex;
+   flex-direction: column;
+   background-color: #fff;
+   height: 100%;
+}
+
+.practice__item-wrap {
+   padding: 30px;
+}
+
+.practice__item-title {
+   padding-bottom: 15px;
+}
+.practice__item-text {
+   text-align: left;
+   max-width: 278px;
+}
+.practice__item-pic {
+   width: 100%;
+}
+
+@media (min-width:768px) {
+   .practice {
+      padding-bottom: 30px;
+   }
+   .practice__cards {
+      width: 50%;
+   }
+   .practice {
+      padding-top: 125px;
+   }
+   .practice__block-title {
+      max-width: 330px;
+   }
+   .practice__block-text {
+      max-width: 470px;
+   }
+}
+
+@media (min-width:992px) {
+   .practice {
+      background-color: #FAFAFA;
+   }
+   .practice__block {
+      padding-bottom: 45px;
+   }
+   .practice__cards {
+      width: 25%;
+   }
+   .practice__item-text {
+      max-width: 170px;
+   }
+   .span {
+      display: none;
+   }
+}
